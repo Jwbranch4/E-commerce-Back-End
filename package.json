@@ -1,0 +1,27 @@
+{
+  "name": "e-commerce-back-end",
+  "version": "1.0.0",
+  "description": "Back end for an e-commerce site taking working Express.js API and configured to use sequelize to interact with a MySQL database.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^10.0.0",
+    "mysql2": "^2.3.3-rc.0",
+    "sequelize": "^6.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jwbranch4/E-commerce-Back-End.git"
+  },
+  "author": "James Branch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jwbranch4/E-commerce-Back-End/issues"
+  },
+  "homepage": "https://github.com/Jwbranch4/E-commerce-Back-End#readme"
+}
